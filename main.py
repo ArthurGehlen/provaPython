@@ -40,3 +40,6 @@ if __name__ == "__main__":
             triangulo = Triangulo(primeiro_lado, segundo_lado, terceiro_lado)
             print(triangulo.calcular_perimetro())
             print(triangulo.calcular_area())
+
+        if opcao > 4 or opcao < 0:
+            break
